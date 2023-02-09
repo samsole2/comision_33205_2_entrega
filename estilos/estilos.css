@@ -1,0 +1,262 @@
+:root{
+    --fuenteTitulos: 'Lobster', cursive;
+    --fuenteParrafos: 'Comic Sans', sans-serif;
+
+    --primario: rgb(43, 22, 3);
+    --primarioClaro: #784D3C;
+}
+
+/*reseteo de ccs*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*pagina index */
+h1{
+    color: #fff;
+    text-align: center;
+    font-style: inherit;
+    font-size: 75px;
+    font-family: fantasy;
+    padding-left: 25px; 
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+ }
+
+ ul{
+   list-style-type: none;
+}
+.encabezado__menu__lista li{
+    display: inline-block ;
+    margin-block-end: 20%;
+    margin-top: 10%;
+    padding: 3%;
+    font-size: medium;
+    background-color: rgb(190, 140, 24);
+    font-family: fantasy;
+    font-variant: small-caps;
+    margin: 8% 6.5%; 
+    border-radius: 40%;
+}
+.experiencia__parrafo{
+    color: rgb(78, 48, 8);
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    padding: 60px;
+    background-color: rgb(246, 179, 78);
+}
+.box1{
+    text-align: center;
+    color: rgba(15, 2, 2, 0.94);
+}
+
+/*pagina conocenos*/
+.segundo__titulo{
+    color: rgb(171, 27, 27);
+}
+.nosotros{
+    background-color: rgb(243, 169, 31);
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    border-radius: 250%;
+    border-image: space;
+}
+/*parrafo conocenos */
+
+ .descripcionConocenos{
+     font-style: oblique;
+     font-family: fantasy;
+     font-size: medium;
+     text-align: center;
+     margin : 100 px 100 px;
+     border: solid 40 px; color: rgb(43, 22, 3);
+     background-color: rgb(221, 119, 31);    
+}
+
+/*titulo de nosotros*/
+
+h2{
+    text-align: center;
+    margin-bottom: 400px;
+    margin-left: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px
+    
+}
+
+.imagenFamilia{
+    width: 300px;
+    height: 200px;
+}
+
+.imagenChurrero{
+    height: 300px;
+    width: 300px;
+}
+
+.imagenEmblema{
+    height: 300px;
+    width: 200px;
+}
+
+/*redes*/
+h3{
+    margin: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-style: normal;
+    color: blue;
+}
+.segundo__titulo{
+    color:rgba(83, 33, 19, 0.889);
+    margin: 80px;
+    padding-right: 30px;
+}
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.pruebaGrid{
+   display: grid;
+   grid-template-columns: 100px 100px 200px;
+   grid-template-rows: 200px 300px 100px;
+   background-color: aqua;
+   border: solid 10px black;
+   grid-column-gap: 50px;
+   grid-row-gap: 20px black;
+   display: inline-block ;
+   margin-block-end: 20%;
+   margin-top: 10%;
+   padding: 3%;
+   font-size: x-large;
+   background-color: rgb(190, 140, 24);
+   font-family: fantasy;
+   font-variant: small-caps;
+   margin: 8% 6.5%; 
+   border-radius: 40%;
+}
+
+/*pagina contacto */
+
+.formulario{
+    color: blanchedalmond;
+    text-align: center;
+    background-color: rgb(196, 126, 22);
+    border-radius: 20%;
+    column-gap: 20rem;
+    font-family: fantasy;
+    font-size: x-large;
+    
+}
+
+/*pagina menu */
+header{
+    color: aquamarine;
+    text-decoration-color: rgb(22, 18, 89);
+    color: black;
+    font: status-bar;
+}
+.footer{
+    text-align: center;
+    color: blue;
+    font-family: fantasy;
+    font-weight: 900;
+}
+
+/*pagina productos */
+
+#productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    background-color: rgba(206, 132, 34, 0.814);
+    color: rgb(104, 46, 7);
+    font-size:xx-large;
+    font-style: oblique;
+    text-align:center
+    
+}
+.derechos{ 
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    color: #000;  
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(../multimedia/chocolateriagrifo.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.h1indefinido{
+    font-size: medium;
+}
+
+.red-social{
+    display: flex;
+    justify-content: center;
+}
+
+.historia{
+    font-family: var(--fuenteTitulos);
+    color: var(--primario);
+    font-size: 45px;
+}
+
+.nosotros__imagen{
+    display: grid;
+    grid-template-columns: repeat();
+    margin-top: 50px;
+}
+
+@media (min-width:768px) {
+    .descripcionConocenos{
+        font-size: xx-large;
+    }
+}
+
+@media (min-width: 768px) {
+    .encabezado__menu__lista{
+        font-size: x-large;
+                
+    }
+}
+
+@media (min-width: 768px) {
+    .experiencia{
+        font-size: x-large;
+    }
+    
+}
+@media (min-width: 768px) {
+    h1{
+        color: rgb(43, 22, 3);
+        text-align: center;
+        font-style: inherit;
+        font-size:900%;
+        font-family: fantasy;
+        padding-left: 600px; 
+        padding-top: 50px;
+    }
+    
+}
